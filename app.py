@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-model = joblib.load("LR_model.pkl")
+model = joblib.load("model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 st.title("Titanic Survival Prediction")
